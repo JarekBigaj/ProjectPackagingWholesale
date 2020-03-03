@@ -103,10 +103,8 @@ C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWh
 C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWholesale\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWholesale\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWholesale\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWholesale\obj\Debug\netcoreapp3.1\PackagingWholesale.csprojAssemblyReference.cache
 C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWholesale\obj\Debug\netcoreapp3.1\staticwebassets\PackagingWholesale.StaticWebAssets.Manifest.cache
 C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWholesale\obj\Debug\netcoreapp3.1\staticwebassets\PackagingWholesale.StaticWebAssets.xml
-C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWholesale\obj\Debug\netcoreapp3.1\PackagingWholesale.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWholesale\obj\Debug\netcoreapp3.1\PackagingWholesale.RazorAssemblyInfo.cache
 C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWholesale\obj\Debug\netcoreapp3.1\PackagingWholesale.RazorAssemblyInfo.cs
 C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWholesale\obj\Debug\netcoreapp3.1\PackagingWholesale.AssemblyInfoInputs.cache
@@ -124,3 +122,5 @@ C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWh
 C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWholesale\obj\Debug\netcoreapp3.1\PackagingWholesale.csproj.CopyComplete
 C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWholesale\obj\Debug\netcoreapp3.1\PackagingWholesale.dll
 C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWholesale\obj\Debug\netcoreapp3.1\PackagingWholesale.pdb
+C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWholesale\obj\Debug\netcoreapp3.1\PackagingWholesale.csprojAssemblyReference.cache
+C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\packagingwholesale\obj\Debug\netcoreapp3.1\PackagingWholesale.MvcApplicationPartsAssemblyInfo.cache

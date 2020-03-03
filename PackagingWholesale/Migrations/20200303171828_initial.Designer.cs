@@ -9,8 +9,8 @@ using PackagingWholesale.Models;
 namespace PackagingWholesale.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20200302160738_Initial")]
-    partial class Initial
+    [Migration("20200303171828_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
