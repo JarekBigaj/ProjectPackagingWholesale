@@ -17,6 +17,8 @@ namespace PackagingWholesale
                 Configuration["Data:PackagingWholesaleProducts:ConnectionString"]));
             services.AddTransient<IProductRepository, EFProductRepository>();
             services.AddMvc(options => options.EnableEndpointRouting = false);
+            services.AddMemoryCache();
+            services.AddSession();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -24,16 +26,27 @@ namespace PackagingWholesale
             app.UseDeveloperExceptionPage();
             app.UseStatusCodePages();
             app.UseStaticFiles();
+            app.UseSession();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
-                    name: "pagination",
-                    template: "Produkty/Strona{productPage}",
-                    defaults: new { Controller = "Product", action = "List" });
-
+                    name: null,
+                    template: "{category}/Strona{productPage:int}",
+                    defaults: new { controller = "Product", action = "List" });
                 routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Product}/{action=List}/{id?}");
+                    name: null,
+                    template: "Strona{productPage:int}",
+                    defaults: new { controller = "Product", action = "List" , productPage = 1 });
+                routes.MapRoute(
+                    name: null,
+                    template: "{category}",
+                    defaults: new { controller = "Product", action = "List", productPage = 1 });
+                routes.MapRoute(
+                    name: null,
+                    template: "",
+                    defaults: new { controller = "Product", action = "List", productPage = 1 });
+
+                routes.MapRoute(name: null, template: "{controller}/{action}/{id?}");
             });
             SeedData.EnsurePopulated(app);
         }

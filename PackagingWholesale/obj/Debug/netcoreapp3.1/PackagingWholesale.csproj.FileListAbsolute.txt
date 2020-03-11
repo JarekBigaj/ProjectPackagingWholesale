@@ -123,6 +123,9 @@ C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWh
 C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWholesale\obj\Debug\netcoreapp3.1\PackagingWholesale.dll
 C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWholesale\obj\Debug\netcoreapp3.1\PackagingWholesale.pdb
 C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWholesale\obj\Debug\netcoreapp3.1\PackagingWholesale.csprojAssemblyReference.cache
-C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\packagingwholesale\obj\Debug\netcoreapp3.1\PackagingWholesale.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWholesale\bin\Debug\netcoreapp3.1\libman.json
 C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWholesale\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ProductSummary.cshtml.g.cs
+C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWholesale\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\NavigationMenu\Default.cshtml.g.cs
+C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWholesale\obj\Debug\netcoreapp3.1\PackagingWholesale.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWholesale\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Kiryuu\Desktop\ProjectPackagingWholesale\PackagingWholesale\PackagingWholesale\obj\Debug\netcoreapp3.1\Razor\Views\Cart\Index.cshtml.g.cs
