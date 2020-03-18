@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using PackagingWholesale.Models;
+using Microsoft.AspNetCore.Http;
 
 namespace PackagingWholesale
 {
@@ -16,6 +17,9 @@ namespace PackagingWholesale
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
                 Configuration["Data:PackagingWholesaleProducts:ConnectionString"]));
             services.AddTransient<IProductRepository, EFProductRepository>();
+            services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddTransient<IOrderRepository, EFOrderRepository>();
             services.AddMvc(options => options.EnableEndpointRouting = false);
             services.AddMemoryCache();
             services.AddSession();
