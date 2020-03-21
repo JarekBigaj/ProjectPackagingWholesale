@@ -1,11 +1,10 @@
-﻿using System;
+﻿
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace PackagingWholesale.Models
 {
-    public class FakeProductRepository : IProductRepository
+    public class FakeProductRepository /*: IProductRepository*/
     {
         public IQueryable<Product> Products => new List<Product>
         {
